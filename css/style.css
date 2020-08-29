@@ -185,6 +185,7 @@ input.submit {
     color: #fff;
     background-color: #b10333;
     border: 2px solid #870529;
+    cursor: pointer;
 }
 
 
