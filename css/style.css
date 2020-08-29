@@ -188,6 +188,11 @@ input.submit {
     cursor: pointer;
 }
 
+input.submit:hover {
+    box-shadow: 0 0 2pt 0.1pt #293241;
+    transition: 0.4s;
+}
+
 
 /* imgs */
 
@@ -209,6 +214,21 @@ h3 {
 .important h3 {
     background: #b10333;
     color: #fff;
+}
+
+.box-content a {
+    text-decoration: none;
+    color: #000;
+}
+
+.box-effect:hover {
+    box-shadow: 0 0 2pt 0.1pt #293241;
+    transition: 0.5s;
+    border: none;
+}
+
+.box-content a p {
+    margin-top: 5px;
 }
 
 .interview h3 {
